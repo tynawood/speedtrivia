@@ -1,0 +1,9 @@
+/*-- Save Wrapper -- */
+#scoreHolder{ position:fixed; display:none; text-align:center; width:100%; font-family:'bariol_regularregular'; background-image:url('assets/bg1.png'); color:#fff;z-index:100;left:35%;}
+#scoreHolder .scoreInnerContent{ position:absolute; padding:14% 0 0;}
+#scoreHolder input{ font-family:"bariol_regularregular"; text-align:center; width:50%; color:#666;}
+#scoreHolder .label{ margin-top:2%;}
+#scoreHolder #uName, #scoreHolder #uEmail{ margin-top:1%;}
+#scoreHolder .action{ width:30%; margin:1% auto;}
+#scoreHolder #buttonSubmit{ float:left; text-align:center; width:40%; cursor:pointer;margin-right: 30px}
+#scoreHolder #buttonCancel{ float:right; text-align:center; width:40%; cursor:pointer;}
