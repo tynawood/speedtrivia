@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<questions>
+	<item>
+		<category>LEVEL 1</category>
+		<question type='text'><![CDATA[Who discovered the airplane?]]></question>
+		<answers answerLayout='4type1' correctAnswer='2' >
+			<answer width='500'>The Warner Brothers</answer>
+			<answer width='500'>The Wright Bros   </answer>
+			<answer width='500'>The Right Brothers</answer>
+			<answer width='500'>The TT Brothers</answer>
+		</answers>
+	</item>
+	
+	
+	
+	
+	
+
+	 <item>
+		<category>LEVEL 1</category>
+		<question type='text'><![CDATA[Which of these does not dissolve in water: 
+			Salt,Sugar,Oil, or Sand?]]></question>
+		<answers answerLayout='4type3' correctAnswer='3'>
+			<answer width='350'><![CDATA[Salt]]></answer>
+			<answer width='350'><![CDATA[Sugar]]></answer>
+			<answer width='350'><![CDATA[Oil]]></answer>
+			<answer width='350'><![CDATA[Sand]]></answer>
+			
+		</answers>
+	</item> 	
+	 <item>
+		<category>LEVEL 2</category>
+		<question type='text'><![CDATA[When you eat a sweet potato, what part of the 
+			plant are you eating?]]></question>
+		<answers answerLayout='5type1' correctAnswer='4'>
+			<answer width='350'><![CDATA[Stem]]></answer>
+			<answer width='350'><![CDATA[Branch]]></answer>
+			<answer width='350'><![CDATA[Leaves]]></answer>
+			<answer width='350'><![CDATA[The root]]></answer>
+			<answer width='350'><![CDATA[Bark]]></answer>
+		</answers>
+	</item> 
+	
+	 <item>
+		<category>LEVEL 1</category>
+		<question type='text'><![CDATA[Where would you find the Great Wall?]]></question>
+		<answers answerLayout='5type3' correctAnswer='2'>
+			<answer width='250'><![CDATA[Jericho]]></answer>
+			<answer width='250'><![CDATA[China]]></answer>
+			<answer width='250'><![CDATA[Isreal]]></answer>
+			<answer width='250'><![CDATA[Brazil]]></answer>
+			<answer width='250'><![CDATA[Gaza]]></answer>
+		</answers>
+	</item> 
+	
+	<item>
+		<category>LEVEL 3</category>
+		<question type='text'><![CDATA[Which plural form is incorrect?]]></question>
+		<answers answerLayout='4type3' correctAnswer='3'>
+			<answer><![CDATA[Monkeys]]></answer>
+			<answer><![CDATA[Cats]]></answer>
+			<answer><![CDATA[Deers]]></answer>
+			<answer><![CDATA[Giraffes]]></answer>
+		</answers>
+	</item> 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+ <item>
+		<category>Test (Audio)</category>
+		<question type='image' audio='assets/sounds/questions/question1.ogg'>assets/questions/tshirt.png</question>
+		<answers answerLayout='4type2' correctAnswer='2'>
+			<answer width="250" x='700' y='350' audio='assets/sounds/questions/question1_a1.ogg'><![CDATA[2]]></answer>
+			<answer width="250" x='700' y='450' audio='assets/sounds/questions/question1_a2.ogg'><![CDATA[3]]></answer>
+			<answer width="250" x='700' y='550' audio='assets/sounds/questions/question1_a3.ogg'><![CDATA[7]]></answer>
+			<answer width="250" x='700' y='650' audio='assets/sounds/questions/question1_a4.ogg'><![CDATA[8]]></answer>
+		</answers>
+	</item>
+	
+	
+	
+	 <item>
+		<category>Test (Audio)</category>
+		<question type='text' audio='assets/sounds/questions/question3.ogg'><![CDATA[Mary's father has 5 daughters, Nana,
+		Nene, Nini, and Nono.
+		Who's the fifth daughter?]]></question>
+		<answers answerLayout='8type2' correctAnswer='7'>
+			<answer audio='assets/sounds/questions/question3_a1.ogg'><![CDATA[Nomo]]></answer>
+			<answer audio='assets/sounds/questions/question3_a2.ogg'><![CDATA[Nuni]]></answer>
+			<answer audio='assets/sounds/questions/question3_a3.ogg'><![CDATA[Neno]]></answer>
+			<answer audio='assets/sounds/questions/question3_a4.ogg'><![CDATA[Nino]]></answer>
+			<answer audio='assets/sounds/questions/question3_a5.ogg'><![CDATA[Nena]]></answer>
+			<answer audio='assets/sounds/questions/question3_a6.ogg'><![CDATA[Nono]]></answer>
+			<answer audio='assets/sounds/questions/question3_a7.ogg'><![CDATA[None]]></answer>
+			<answer audio='assets/sounds/questions/question3_a8.ogg'><![CDATA[Nunu]]></answer>
+		</answers>
+	</item>
+
+		<item>
+		<category>LEVEL 1</category>
+		<question type='text'><![CDATA[What do you do first when your 
+			UMB SpeedApp is blocked? ]]></question>
+		<answers answerLayout='3type1' correctAnswer='1'>
+			<answer><![CDATA[Call the Contact Centre]]></answer>
+			<answer><![CDATA[Uninstall the App ]]></answer>
+			<answer><![CDATA[Download the App again]]></answer>
+				
+		</answers>
+	</item>
+
+	<item>
+		<category>LEVEL 1</category>
+		<question type='text'><![CDATA[How many branches does 
+			UMB have nationwide? ]]></question>
+		<answers answerLayout='3type1' correctAnswer='3'>
+			<answer><![CDATA[24]]></answer>
+			<answer><![CDATA[46 ]]></answer>
+			<answer><![CDATA[36]]></answer>
+				
+		</answers>
+	</item>
+	<item>
+		<category>LEVEL 1</category>
+		<question type='text'><![CDATA[All these are UMB 
+			branches in Kumasi except? ]]></question>
+		<answers answerLayout='3type1' correctAnswer='3'>
+			<answer><![CDATA[Asafo branch ]]></answer>
+			<answer><![CDATA[Bantama branch ]]></answer>
+			<answer><![CDATA[Fante Newtown branch]]></answer>
+				
+		</answers>
+	</item>
+
+	<item>
+		<category>LEVEL 1</category>
+		<question type='text'><![CDATA[What do you do first when you 
+			forget your UMB SpeedApp password? ]]></question>
+		<answers answerLayout='3type1' correctAnswer='2'>
+			<answer><![CDATA[Delete App]]></answer>
+			<answer><![CDATA[Visit any UMB branch]]></answer>
+			<answer><![CDATA[Uninstall App from Store]]></answer>
+				
+		</answers>
+	</item>
+	<item>
+		<category>LEVEL 1</category>
+		<question type='text'><![CDATA[How much does it cost 
+			to download the UMB SpeedApp? ]]></question>
+		<answers answerLayout='3type1' correctAnswer='2'>
+			<answer><![CDATA[One ghana cedi]]></answer>
+			<answer><![CDATA[It’s free]]></answer>
+			<answer><![CDATA[50 pesewas]]></answer>
+				
+		</answers>
+	</item>
+
+	<item>
+		<category>LEVEL 1</category>
+		<question type='text'><![CDATA[What do you do when your 
+			UMB SpeedApp phone gets missing?]]></question>
+		<answers answerLayout='3type1' correctAnswer='1'>
+			<answer><![CDATA[Call Contact Centre to block App]]></answer>
+			<answer><![CDATA[Call Mobile Operator to uninstall App ]]></answer>
+			<answer><![CDATA[Visit App store and delete App]]></answer>
+				
+		</answers>
+	</item>
+	<item>
+		<category>LEVEL 1</category>
+		<question type='text'><![CDATA[How do you get cash on your 
+			Wallet if you are not a UMB customer? ]]></question>
+		<answers answerLayout='3type1' correctAnswer='1'>
+			<answer><![CDATA[Visit any UMB agency bankers]]></answer>
+			<answer><![CDATA[Visit any mobile money vendor]]></answer>
+			<answer><![CDATA[Visit any banking hall]]></answer>
+				
+		</answers>
+	</item>
+	<item>
+		<category>LEVEL 1</category>
+		<question type='text'><![CDATA[What can you use the UMB SpeedApp 
+			for if you are not an account holder? ]]></question>
+		<answers answerLayout='4type1' correctAnswer='2'>
+			<answer><![CDATA[Request an uber]]></answer>
+			<answer><![CDATA[Transact MOMO across all platforms]]></answer>
+			<answer><![CDATA[Locate a waakye joint]]></answer>
+			<answer><![CDATA[Request a taxify]]></answer>
+				
+		</answers>
+	</item>
+	<item>
+		<category>LEVEL 1</category>
+		<question type='text'><![CDATA[How do I get my UMB 
+			SpeedApp on my new phone ?]]></question>
+		<answers answerLayout='4type1' correctAnswer='1'>
+			<answer><![CDATA[Call contact centre after reinstalling ]]></answer>
+			<answer><![CDATA[Dial 1234 after reinstalling]]></answer>
+			<answer><![CDATA[Visit the UMB wesbsite after installing]]></answer>
+			<answer><![CDATA[Call 911]]></answer>
+				
+		</answers>
+	</item>
+	<item>
+		<category>LEVEL 1</category>
+		<question type='text'><![CDATA[What is T-Pin used for ?]]></question>
+		<answers answerLayout='3type1' correctAnswer='2'>
+			<answer><![CDATA[Log into your app  ]]></answer>
+			<answer><![CDATA[Authenticate all transactions ]]></answer>
+			<answer><![CDATA[Exit your app]]></answer>
+			
+				
+		</answers>
+	</item>
+
+	<item>
+		<category>LEVEL 1</category>
+		<question type='text'><![CDATA[	How do I get the UMB 
+			SpeedApp on Andriod?]]></question>
+		<answers answerLayout='4type1' correctAnswer='4'>
+			<answer><![CDATA[Visit Prampram  ]]></answer>
+			<answer><![CDATA[Kiosk]]></answer>
+			<answer><![CDATA[Provision Store]]></answer>
+				<answer><![CDATA[Visit the Play Store ]]></answer>
+		</answers>
+	</item>
+	<item>
+		<category>LEVEL 1</category>
+		<question type='text'><![CDATA[What do you do if you can't 
+			self-register your UMB SpeedApp?]]></question>
+		<answers answerLayout='4type1' correctAnswer='2'>
+			<answer><![CDATA[Call your mobile operator   ]]></answer>
+			<answer><![CDATA[Visit a UMB branch for assistance]]></answer>
+			<answer><![CDATA[Dial *124#]]></answer>
+				<answer><![CDATA[Dial *506# ]]></answer>
+		</answers>
+	</item>
+	<item>
+		<category>LEVEL 1</category>
+		<question type='text'><![CDATA[How many UMB ATM's are in Accra?]]></question>
+		<answers answerLayout='4type1' correctAnswer='3'>
+			<answer><![CDATA[15]]></answer>
+			<answer><![CDATA[26]]></answer>
+			<answer><![CDATA[11]]></answer>
+				<answer><![CDATA[45]]></answer>
+		</answers>
+	</item>
+	<item>
+		<category>LEVEL 1</category>
+		<question type='text'><![CDATA[What account do you need to have 
+			with UMB in order to use the UMB SpeedApp?]]></question>
+		<answers answerLayout='3type1' correctAnswer='3'>
+			<answer><![CDATA[Savings account]]></answer>
+			<answer><![CDATA[Current account]]></answer>
+			<answer><![CDATA[No Account]]></answer>
+			
+		</answers>
+	</item>
+
+	<item>
+		<category>LEVEL 1</category>
+		<question type='text'><![CDATA[What are the colours of UMB?]]></question>
+		<answers answerLayout='3type1' correctAnswer='2'>
+			<answer><![CDATA[Red and White]]></answer>
+			<answer><![CDATA[Black and Mustard]]></answer>
+			<answer><![CDATA[Orange and Green]]></answer>
+			
+		</answers>
+	</item>
+
+	<item>
+		<category>LEVEL 1</category>
+		<question type='text'><![CDATA[You can do the following 
+			with your UMB Wallet except?]]></question>
+		<answers answerLayout='3type1' correctAnswer='3'>
+			<answer><![CDATA[Check balance]]></answer>
+			<answer><![CDATA[Bill payment]]></answer>
+			<answer><![CDATA[Open an account]]></answer>
+			
+		</answers>
+	</item>
+
+	
+	<item>
+		<category>LEVEL 1</category>
+		<question type='text'><![CDATA[Can you check all investment 
+			account balance on the UMB SpeedApp ?]]></question>
+		<answers answerLayout='3type1' correctAnswer='3'>
+			<answer><![CDATA[You need to download another app]]></answer>
+			<answer><![CDATA[You can only check for two]]></answer>
+			<answer><![CDATA[Yes you can]]></answer>
+			
+		</answers>
+	</item>
+	<item>
+		<category>LEVEL 1</category>
+		<question type='text'><![CDATA[Can someone use their user ID
+			
+and M-Pin to log on the UMB SpeedApp on my phone?]]></question>
+		<answers answerLayout='3type1' correctAnswer='3'>
+			<answer><![CDATA[Yes,if they have your phone number]]></answer>
+			<answer><![CDATA[Yes,if they use their M-Pin only]]></answer>
+			<answer><![CDATA[No,your phone is tied to your account ]]></answer>
+			
+		</answers>
+	</item>
+
+	
+
+	
+	<item>
+		<category>LEVEL 1</category>
+		<question type='text'><![CDATA[When did the Portuguese build Elmina Castle?]]></question>
+		<answers answerLayout='4type1' correctAnswer='2' >
+			<answer width='500'>1498</answer>
+			<answer width='500'>1482 </answer>
+			<answer width='500'>1453</answer>
+			<answer width='500'>1444</answer>
+		</answers>
+	</item>
+
+	
+
+	
+
+
+	<item>
+		<category>LEVEL 1</category>
+		<question type='text'><![CDATA[Which of these metals is heavier?]]></question>
+		<answers answerLayout='4type1' correctAnswer='2' >
+			<answer width='500'>Silver</answer>
+			<answer width='500'>Gold </answer>
+			<answer width='500'>Bronze </answer>
+			<answer width='500'>Bauxite</answer>
+		</answers>
+	</item>
+	
+	
+	<item>
+		<category>LEVEL 1</category>
+		<question type='text'><![CDATA[How many legs does a butterfly have?]]></question>
+		<answers answerLayout='4type1' correctAnswer='3' >
+			<answer width='500'>4 legs</answer>
+			<answer width='500'>8 legs </answer>
+			<answer width='500'>6 legs </answer>
+			<answer width='500'>12 legs</answer>
+		</answers>
+	</item>
+
+	
+	
+		<item>
+		<category>LEVEL 1</category>
+		<question type='text'><![CDATA[How many times has Presec-Legon
+		 won the National Science and Math Quiz?]]></question>
+		<answers answerLayout='4type1' correctAnswer='3' >
+			<answer width='500'>7</answer>
+			<answer width='500'>9 </answer>
+			<answer width='500'>5</answer>
+			<answer width='500'>3</answer>
+		</answers>
+	</item>
+
+
+		<item>
+		<category>LEVEL 1</category>
+		<question type='text'><![CDATA[What sport involves a headlock?]]></question>
+		<answers answerLayout='4type1' correctAnswer='3' >
+			<answer width='500'>Football</answer>
+			<answer width='500'>Rugby</answer>
+			<answer width='500'>Wrestling</answer>
+			<answer width='500'>Cricket</answer>
+		</answers>
+	</item>
+
+		<item>
+		<category>LEVEL 1</category>
+		<question type='text'><![CDATA[Which is the largest animal in the world?]]></question>
+		<answers answerLayout='4type1' correctAnswer='1' >
+			<answer width='500'>Blue Whale</answer>
+			<answer width='500'>Elephant</answer>
+			<answer width='500'>Crocodile</answer>
+			<answer width='500'>Tiger</answer>
+		</answers>
+	</item>
+	
+
+	
+	
+	<item>
+		<category>LEVEL 1</category>
+		<question type='text'><![CDATA[Which is the smallest Ocean in the world?]]></question>
+		<answers answerLayout='4type1' correctAnswer='4' >
+			<answer width='500'>Atlantic Ocean</answer>
+			<answer width='500'>Pacific Ocean</answer>
+			<answer width='500'>Cantic Ocean</answer>
+			<answer width='500'>Arctic Ocean</answer>
+		</answers>
+	</item>
+
+
+<item>
+		<category>LEVEL 1</category>
+		<question type='text'><![CDATA[Which is the longest river in the world?]]></question>
+		<answers answerLayout='4type1' correctAnswer='2' >
+			<answer width='500'>Amazon River</answer>
+			<answer width='500'>Nile</answer>
+			<answer width='500'>Leki River</answer>
+			<answer width='500'>Mississipi River</answer>
+		</answers>
+	</item>
+
+
+<item>
+		<category>LEVEL 1</category>
+		<question type='text'><![CDATA[Which is the biggest desert in the world?]]></question>
+		<answers answerLayout='4type1' correctAnswer='1' >
+			<answer width='500'>Sahara Desert</answer>
+			<answer width='500'>Artic Desert</answer>
+			<answer width='500'>Antarctica Desert</answer>
+			<answer width='500'>Dubai Desert</answer>
+		</answers>
+	</item>
+
+</questions>

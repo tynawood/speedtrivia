@@ -1,1 +1,261 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" class="body-panel" > <!--<![endif]-->
 
+<script type="text/javascript">
+    $( document ).ready(function() {
+    $(startButtonText).click(function () {
+
+    $("#mainHolder").css("background-image", "url('assets/bg1.png')");
+
+}
+
+});
+   /* var home_bg='assets/bg2.png';
+var ques_bg='assets/bg1.png';*/
+</script>
+
+<style type="text/css">
+   .ans{background:; #f4b221;border-radius: 50%;width: 45px;height: 45px;text-anchor: center;color:#000}
+  /* .resultbg{background: #000;width: 40%;height: inherit;position: absolute;left: 50%}*/
+   .rewardpos{position: absolute;top:15%;left: 75%;background: #fff;height: 420px;color:#000;border-radius: 30px;text-align: center;padding:20px;}
+
+ /* .ansbg{background: rgba(23,10,7,1);
+background: -moz-linear-gradient(-45deg, rgba(23,10,7,1) 0%, rgba(48,26,24,1) 21%, rgba(28,15,13,1) 65%, rgba(38,19,17,1) 84%, rgba(43,22,5,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(23,10,7,1)), color-stop(21%, rgba(48,26,24,1)), color-stop(65%, rgba(28,15,13,1)), color-stop(84%, rgba(38,19,17,1)), color-stop(100%, rgba(43,22,5,1)));
+background: -webkit-linear-gradient(-45deg, rgba(23,10,7,1) 0%, rgba(48,26,24,1) 21%, rgba(28,15,13,1) 65%, rgba(38,19,17,1) 84%, rgba(43,22,5,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(23,10,7,1) 0%, rgba(48,26,24,1) 21%, rgba(28,15,13,1) 65%, rgba(38,19,17,1) 84%, rgba(43,22,5,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(23,10,7,1) 0%, rgba(48,26,24,1) 21%, rgba(28,15,13,1) 65%, rgba(38,19,17,1) 84%, rgba(43,22,5,1) 100%);
+background: linear-gradient(135deg, rgba(23,10,7,1) 0%, rgba(48,26,24,1) 21%, rgba(28,15,13,1) 65%, rgba(38,19,17,1) 84%, rgba(43,22,5,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#170a07', endColorstr='#2b1605', GradientType=1 );width: inherit;height: 200px;position: absolute;top: 50%;border-radius: 20px;-z-index: -1000}*/
+</style>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>UMb spedd Trivia</title>
+        
+        <meta name="Title" content="" />
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        
+        <!-- for Facebook -->
+       <!--  <meta property="og:title" content="Quiz Game"/>
+        <meta property="og:site_name" content="Quiz Game"/>
+        <meta property="og:image" content="http://demonisblack.com/code/quizgame/game/share.jpg" />
+        <meta property="og:url" content="http://demonisblack.com/code/quizgame/game/" />
+        <meta property="og:description" content="Quiz Game is a HTML5 game with free general knowledge quiz questions and multiple choice answers."> -->
+        
+        <!-- for Twitter -->
+        <!-- <meta name="twitter:title" content="Quiz Game" />
+        <meta name="twitter:description" content="Quiz Game is a HTML5 game with free general knowledge quiz questions and multiple choice answers." />
+        <meta name="twitter:image" content="http://demonisblack.com/code/quizgame/game/share.jpg" />
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"> -->
+        <!-- <script>
+        if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+            var msViewportStyle = document.createElement("style");
+            msViewportStyle.appendChild(
+                document.createTextNode(
+                    "@-ms-viewport{width:device-width}"
+                )
+            );
+            document.getElementsByTagName("head")[0].
+                appendChild(msViewportStyle);
+        }
+        </script> -->
+
+       <!--  <link rel="shortcut icon" href="icon.ico" type="image/x-icon"> -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+         <link rel="stylesheet" href="css/score.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script type="text/javascript">
+            function init(){
+    document.addEventListener("deviceready", onDeviceReady, false);
+}
+
+function onDeviceReady() {
+   // set to landscape
+   screen.lockOrientation('landscape');
+}
+
+$(window).on('beforeunload', function(){
+     // allow user rotate
+     screen.unlockOrientation(); 
+     // or set the Orientation to portrait
+     screen.lockOrientation('portrait');
+ });
+        </script>
+    </head>
+  <body onload="init()" style="background:#000">
+        <!-- PERCENT LOADER START-->
+        <div id="mainLoader" >LOADING....</div>
+        <!-- PERCENT LOADER END-->
+        
+        <!-- CONTENT START-->
+        <div id="mainHolder" class="body-panel" style="background-image: url(assets/bg2.png);">
+        
+            <!-- BROWSER NOT SUPPORT START-->
+            <div id="notSupportHolder">
+                <div class="notSupport">YOUR BROWSER ISN'T SUPPORTED.<br/>PLEASE UPDATE YOUR BROWSER IN ORDER TO RUN THE GAME</div>
+            </div>
+
+
+          <!--  <img id="stbn" class="animated bounce" onclick="goPage('game');hide();" src="assets/start.png" style="">-->
+            <!-- BROWSER NOT SUPPORT END-->
+            
+            <!-- ROTATE INSTRUCTION START-->
+          <!--   <div id="rotateHolder">
+                <div class="mobileRotate">
+                        <div class="rotateDesc">Rotate your device <br/>to landscape</div>
+                </div>
+            </div> -->
+            <!-- ROTATE INSTRUCTION END-->
+            
+            <!-- CANVAS START-->
+            <div id="canvasHolder">
+                <canvas id="gameCanvas" width="1024" height="768" style="z-index: 100"></canvas>
+<div id="stage2" style=""></div>
+<div id="stage3" style=""></div>
+
+<div id="prize1" class="rewardpos" style="display: none"><h4>You Won Yourself A Reward</h4><br><img src="assets/sorry.jpg" width="100" style="vertical-align: middle;margin-left: 12%;">
+
+
+<p>Pick your reward at the front desk!!</p>
+
+</div> 
+
+
+<div id="prize2" class="rewardpos" style="display: none"><h4>You Won Yourself A Reward</h4><br><img src="assets/band.png" width="100" style="vertical-align: middle;margin-left: 12%;">
+
+
+<p>Pick your reward at the front desk!!</p>
+
+</div>
+
+
+
+<div id="prize3" class="rewardpos" style="display: none"><h4>You Won Yourself A Reward</h4><br><img src="assets/sorry.jpg" width="100" style="vertical-align: middle;margin-left: 12%;">
+
+
+<p>Pick your reward at the front desk!!</p>
+
+</div> 
+
+
+<div id="prize4" class="rewardpos" style="display: none"><h4>You Won Yourself A Reward</h4><br><img src="assets/pendrive.png" width="100" style="vertical-align: middle;margin-left: 12%;">
+
+
+<p>Pick your reward at the front desk!!</p>
+
+</div>
+
+
+<div id="prize5" class="rewardpos" style="display: none"><h4>You Won Yourself A Reward</h4><br><img src="assets/sorry.jpg" width="100" style="vertical-align: middle;margin-left: 12%;">
+
+
+<p>Pick your reward at the front desk!!</p>
+
+</div>
+
+
+
+<div id="prize6" class="rewardpos" style="display: none"><h4>You Won Yourself A Reward</h4><br><img src="assets/book.png" width="100" style="vertical-align: middle;margin-left: 12%;">
+
+
+<p>Pick your reward at the front desk!!</p>
+
+</div>
+
+
+<div id="prize7" class="rewardpos" style="display: none"><h4>You Won Yourself A Reward</h4><br><img src="assets/polo.png" width="100" style="vertical-align: middle;margin-left: 12%;">
+
+
+<p>Pick your reward at the front desk!!</p>
+
+</div>
+
+
+<div id="prize8" class="rewardpos" style="display: none"><h4>You Won Yourself A Reward</h4><br><img src="assets/sorry.jpg" width="100" style="vertical-align: middle;margin-left: 12%;">
+
+
+<p>Pick your reward at the front desk!!</p>
+
+</div> 
+
+
+<div id="prize9" class="rewardpos" style="display: none"><h4>You Won Yourself A Reward</h4><br><img src="assets/rings.png" width="100" style="vertical-align: middle;margin-left: 12%;">
+
+
+<p>Pick your reward at the front desk!!</p>
+
+</div>
+
+
+<div id="prize10" class="rewardpos" style="display: none"><h4>You Won Yourself A Reward</h4><br><img src="assets/bag.png" width="100" style="vertical-align: middle;margin-left: 12%;">
+
+
+<p>Pick your reward at the front desk!!</p>
+
+</div>
+
+
+<div id="prize11" class="rewardpos" style="display: none"><h4>You Won Yourself A Reward</h4><br><img src="assets/mug.png" width="100" style="vertical-align: middle;margin-left: 12%;">
+
+
+<p>Pick your reward at the front desk!!</p>
+
+</div>
+
+
+<div id="prize12" class="rewardpos" style="display: none"><h4>You Couln't Win Anything For Yourself!</h4><br><img src="assets/sorry.jpg" width="100" style="vertical-align: middle;margin-left: 12%;">
+
+
+<p>Try Your Best Next Time!!</p>
+
+</div>
+            </div>
+            <!-- CANVAS END-->
+            
+        </div>
+        <!-- CONTENT END-->
+        
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script type="text/javascript">
+            function hide(argument) {
+
+                document.getElementById('stbn').style.display="none";
+                // body...
+            }
+        </script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
+        
+        <script src="js/vendor/detectmobilebrowser.js"></script>
+        <script src="js/vendor/preloadjs-0.6.1.min.js"></script>
+        <script src="js/vendor/easeljs-0.8.1.min.js"></script>
+        <script src="js/vendor/soundjs-0.6.1.min.js"></script>
+        <script src="js/vendor/TweenMax.min.js"></script>
+        
+        <script src="js/plugins.js"></script>
+        <script src="js/sound.js"></script>
+        <script src="js/canvas.js"></script>
+        <script src="js/game.js"></script>
+            <script src="js/score.js"></script>
+        <script src="js/mobile.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/loader.js"></script>
+        <script src="js/init.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <!-- <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+          ga('create', 'UA-424386-45', 'auto');
+          ga('send', 'pageview');
+        </script> -->
+    </body>
+</html>
